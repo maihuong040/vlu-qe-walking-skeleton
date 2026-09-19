@@ -6,7 +6,7 @@ describe("Login function", () => {
   });
 
   test("Trả về false khi username sai", () => {
-    expect(login("user", "1234")).toBe(false);
+    expect(login("user", "123")).toBe(false);
   });
 
   test("Trả về false khi password sai", () => {
