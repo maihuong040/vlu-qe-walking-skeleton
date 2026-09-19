@@ -1,5 +1,5 @@
 function login(user, pass) {
-  return user === "admin" && pass === "123456";
+  return user === "admin" && pass === "123";
 }
 module.exports = {
   login
