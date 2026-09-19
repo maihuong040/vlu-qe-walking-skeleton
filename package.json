@@ -2,11 +2,12 @@
   "name": "vlu-qe-walking-skeleton",
   "version": "1.0.0",
   "description": "",
-  "main": "login.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "dependencies": {}
 }
