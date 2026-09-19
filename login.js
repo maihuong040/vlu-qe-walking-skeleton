@@ -2,7 +2,7 @@ const { login } = require("./login");
 
 describe("Login function", () => {
   test("Trả về true khi username và password đúng", () => {
-    expect(login("admin", "123")).toBe(true);
+    expect(login("admin", "1234")).toBe(true);
   });
 
   test("Trả về false khi username sai", () => {
